@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\health.py
+# hypothesis_version: 6.151.4
+
+['/health', '/health/detailed', '1.0.0', 'bedrock', 'bedrock-runtime', 'degraded', 'dynamodb', 'environment', 'error', 'healthy', 's3', 'services', 'status', 'timestamp', 'unhealthy', 'version']

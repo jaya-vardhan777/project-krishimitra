@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\bcrypt\__init__.py
+# hypothesis_version: 6.151.4
+
+[b'$', b'2a', b'2b', 512, '%2.2u', 'Invalid rounds', '__author__', '__copyright__', '__email__', '__license__', '__summary__', '__title__', '__uri__', '__version__', 'ascii', 'checkpw', 'gensalt', 'hashpw', 'kdf']

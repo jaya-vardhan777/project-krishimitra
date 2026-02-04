@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\main.py
+# hypothesis_version: 6.151.4
+
+[500, 8000, '*', '/', '/api/v1', '/docs', '/redoc', '0.0.0.0', '1.0.0', 'DELETE', 'GET', 'KrishiMitra API', 'OPTIONS', 'POST', 'PUT', '__main__', 'chat', 'description', 'environment', 'error', 'farmers', 'health', 'healthy', 'info', 'main:app', 'message', 'name', 'off', 'production', 'recommendations', 'request_id', 'status', 'version', 'voice', 'whatsapp']

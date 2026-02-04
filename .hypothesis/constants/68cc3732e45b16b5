@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mangum\handlers\alb.py
+# hypothesis_version: 6.151.4
+
+['/', '1.1', '2.0', '3.0', 'asgi', 'aws.context', 'aws.event', 'body', 'client', 'elb', 'headers', 'http', 'httpMethod', 'http_version', 'https', 'isBase64Encoded', 'method', 'multiValueHeaders', 'path', 'query_string', 'raw_path', 'requestContext', 'root_path', 'scheme', 'server', 'spec_version', 'status', 'statusCode', 'text_mime_types', 'type', 'version', 'x-forwarded-for', 'x-forwarded-proto']

@@ -1,0 +1,140 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "krishimitra-platform"
+version = "1.0.0"
+description = "AI-powered agricultural advisory platform for rural farmers in India"
+authors = ["KrishiMitra Team <team@krishimitra.com>"]
+readme = "README.md"
+packages = [{include = "krishimitra", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0"}
+pydantic = "^2.5.0"
+boto3 = "^1.34.0"
+langchain = "^0.1.0"
+langgraph = "^0.0.26"
+langchain-aws = "^0.1.0"
+langchain-community = "^0.0.10"
+pandas = "^2.1.4"
+numpy = "^1.26.2"
+scikit-learn = "^1.3.2"
+redis = "^5.0.1"
+celery = "^5.3.4"
+cryptography = "^41.0.8"
+httpx = "^0.25.2"
+pillow = "^10.1.0"
+librosa = "^0.10.1"
+pydub = "^0.25.1"
+python-multipart = "^0.0.6"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.23"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.0"
+structlog = "^23.2.0"
+mangum = "^0.17.0"
+pydantic-settings = "^2.1.0"
+python-json-logger = "^2.0.7"
+aiofiles = "^23.2.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.12.0"
+pytest-benchmark = "^4.0.0"
+hypothesis = "^6.92.1"
+black = "^23.11.0"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+mypy = "^1.7.1"
+pre-commit = "^3.6.0"
+moto = {extras = ["dynamodb", "s3", "iot"], version = "^4.2.14"}
+locust = "^2.17.0"
+aws-cdk-lib = "^2.167.1"
+constructs = "^10.3.0"
+
+[tool.poetry.scripts]
+krishimitra = "krishimitra.main:app"
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+known_first_party = ["krishimitra"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+    "property: marks tests as property-based tests",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+    "*/migrations/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mangum\handlers\api_gateway.py
+# hypothesis_version: 6.151.4
+
+[', ', '1.1', '2.0', '3.0', '; ', 'application/json', 'asgi', 'aws.context', 'aws.event', 'body', 'client', 'content-type', 'cookie', 'cookies', 'headers', 'http', 'httpMethod', 'http_version', 'https', 'identity', 'isBase64Encoded', 'method', 'multiValueHeaders', 'path', 'query_string', 'rawQueryString', 'raw_path', 'requestContext', 'resource', 'root_path', 'scheme', 'server', 'set-cookie', 'sourceIp', 'spec_version', 'status', 'statusCode', 'text_mime_types', 'type', 'version', 'x-forwarded-proto']

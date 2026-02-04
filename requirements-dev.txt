@@ -1,0 +1,27 @@
+# Development dependencies for KrishiMitra Platform
+-r requirements.txt
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-benchmark==4.0.0
+hypothesis==6.92.1
+
+# Code quality
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
+pre-commit==3.6.0
+
+# AWS mocking and testing
+moto[dynamodb,s3,iot]==4.2.14
+
+# Load testing
+locust==2.17.0
+
+# Infrastructure as Code
+aws-cdk-lib==2.167.1
+constructs==10.3.0

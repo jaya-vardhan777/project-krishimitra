@@ -10,7 +10,7 @@ The platform addresses critical challenges in rural agriculture by combining mul
 
 ### High-Level Architecture
 
-The KrishiMitra platform follows a microservices architecture deployed on AWS, organized into five primary layers:
+The KrishiMitra platform follows a microservices architecture deployed on AWS using Python-based services, organized into five primary layers:
 
 ```mermaid
 graph TB
@@ -22,10 +22,10 @@ graph TB
     
     subgraph "API Gateway Layer"
         D[Amazon API Gateway]
-        E[AWS Lambda Functions]
+        E[FastAPI Services on AWS Lambda]
     end
     
-    subgraph "Multi-Agent AI Layer"
+    subgraph "Multi-Agent AI Layer - LangGraph"
         F[Data Ingestion Agent]
         G[Knowledge & Reasoning Agent]
         H[Advisory Agent]
@@ -34,7 +34,7 @@ graph TB
     end
     
     subgraph "Data Processing Layer"
-        K[Amazon Bedrock]
+        K[Amazon Bedrock + LangChain]
         L[Amazon SageMaker]
         M[AWS IoT Core]
         N[Amazon Translate]
@@ -71,35 +71,36 @@ graph TB
 
 ### Multi-Agent System Architecture
 
-The core intelligence of KrishiMitra is powered by five specialized AI agents that collaborate to provide comprehensive agricultural guidance:
+The core intelligence of KrishiMitra is powered by five specialized AI agents built using LangGraph and LangChain that collaborate to provide comprehensive agricultural guidance:
 
-**1. Data Ingestion Agent**
+**1. Data Ingestion Agent (LangGraph Node)**
 - Collects real-time data from IoT sensors, weather APIs, satellite imagery, and market databases
-- Normalizes and validates incoming data streams
+- Uses LangChain tools for API integrations and data validation
+- Normalizes and validates incoming data streams using Pydantic models
 - Implements data quality checks and anomaly detection
 - Stores processed data in appropriate storage systems
 
-**2. Knowledge & Reasoning Agent**
-- Powered by Amazon Bedrock with Claude 3.5 Sonnet for agricultural domain expertise
-- Processes agricultural knowledge bases and research papers
-- Performs contextual analysis of farmer queries
-- Generates evidence-based recommendations
+**2. Knowledge & Reasoning Agent (LangGraph Node)**
+- Powered by LangChain integration with Amazon Bedrock (Claude 3.5 Sonnet)
+- Processes agricultural knowledge bases and research papers using RAG
+- Performs contextual analysis of farmer queries using LangChain chains
+- Generates evidence-based recommendations with source attribution
 
-**3. Advisory Agent**
-- Delivers personalized recommendations based on farmer profiles and current conditions
-- Integrates outputs from other agents to provide holistic guidance
-- Handles multilingual communication through Amazon Translate
-- Maintains conversation context and farmer preferences
+**3. Advisory Agent (LangGraph Node)**
+- Delivers personalized recommendations using LangChain decision trees
+- Integrates outputs from other agents through LangGraph state management
+- Handles multilingual communication through LangChain translation chains
+- Maintains conversation context using LangChain memory components
 
-**4. Sustainability Agent**
-- Monitors environmental impact and resource usage
+**4. Sustainability Agent (LangGraph Node)**
+- Monitors environmental impact using specialized LangChain tools
 - Provides climate-resilient farming recommendations
 - Tracks carbon footprint and biodiversity metrics
-- Suggests organic and sustainable alternatives
+- Suggests organic and sustainable alternatives using knowledge graphs
 
-**5. Feedback Agent**
-- Captures farmer feedback and outcome data
-- Implements continuous learning algorithms
+**5. Feedback Agent (LangGraph Node)**
+- Captures farmer feedback using LangChain structured output parsers
+- Implements continuous learning algorithms with LangChain callbacks
 - Updates recommendation models based on real-world results
 - Identifies successful practices for knowledge sharing
 
@@ -127,23 +128,31 @@ The core intelligence of KrishiMitra is powered by five specialized AI agents th
 
 ### Core Processing Components
 
-**Multi-Agent Orchestrator**
-- Coordinates communication between specialized agents
-- Implements agent routing based on query type and context
-- Manages agent state and conversation history
-- Handles load balancing and failover scenarios
+**Multi-Agent Orchestrator (LangGraph)**
+- Coordinates communication between specialized agents using LangGraph workflows
+- Implements agent routing based on query type and context using conditional edges
+- Manages agent state and conversation history through LangGraph state management
+- Handles load balancing and failover scenarios with error handling nodes
 
-**Data Pipeline**
-- AWS Glue for ETL operations on agricultural data
-- Amazon Kinesis for real-time data streaming
-- AWS Step Functions for workflow orchestration
-- Amazon EventBridge for event-driven processing
+**FastAPI Services**
+- RESTful API endpoints built with FastAPI for high performance
+- Automatic API documentation with OpenAPI/Swagger
+- Pydantic models for request/response validation
+- Async/await support for concurrent request handling
+- Built-in dependency injection for service components
 
-**AI/ML Services Integration**
-- Amazon Bedrock for foundation model access
-- Amazon SageMaker for custom ML model training
-- Amazon Rekognition for crop image analysis
-- Amazon Comprehend for sentiment analysis
+**Data Pipeline (Python)**
+- AWS Glue ETL jobs written in Python for agricultural data processing
+- Amazon Kinesis integration using boto3 for real-time data streaming
+- AWS Step Functions with Python Lambda functions for workflow orchestration
+- Amazon EventBridge integration for event-driven processing
+
+**AI/ML Services Integration (LangChain)**
+- LangChain Bedrock integration for foundation model access
+- Custom LangChain tools for Amazon SageMaker model inference
+- LangChain document loaders for agricultural knowledge bases
+- Vector stores integration (FAISS/Chroma) for similarity search
+- LangChain agents for complex reasoning workflows
 
 ### External Integrations
 
@@ -609,11 +618,12 @@ The KrishiMitra platform employs a comprehensive dual testing approach combining
 
 **Testing Library Selection**
 - **Python**: Hypothesis for property-based testing with agricultural domain generators
-- **JavaScript/TypeScript**: fast-check for frontend and API testing
+- **FastAPI**: pytest with hypothesis for API endpoint testing
+- **LangChain/LangGraph**: Custom test fixtures for agent behavior validation
 - **Configuration**: Minimum 100 iterations per property test to ensure statistical confidence
 
 **Custom Generators for Agricultural Domain**
-- Farmer profile generators with realistic Indian agricultural data
+- Farmer profile generators with realistic Indian agricultural data using Pydantic models
 - Weather data generators based on Indian meteorological patterns
 - Crop data generators covering major Indian crops and growing seasons
 - Market price generators reflecting actual Indian commodity markets
@@ -623,49 +633,74 @@ The KrishiMitra platform employs a comprehensive dual testing approach combining
 Each correctness property from the design document will be implemented as a dedicated property-based test with the following structure:
 
 ```python
-# Example property test structure
-@given(farmer_profile=farmer_generator(), 
-       weather_data=weather_generator(),
-       soil_data=soil_generator())
-def test_context_aware_crop_recommendations(farmer_profile, weather_data, soil_data):
+# Example property test structure using Hypothesis and FastAPI
+from hypothesis import given, strategies as st
+from fastapi.testclient import TestClient
+import pytest
+
+@given(
+    farmer_profile=farmer_profile_strategy(),
+    weather_data=weather_data_strategy(),
+    soil_data=soil_data_strategy()
+)
+def test_context_aware_crop_recommendations(
+    client: TestClient,
+    farmer_profile,
+    weather_data,
+    soil_data
+):
     """
     Feature: krishimitra, Property 17: Context-aware crop recommendations
     For any crop selection request with local climate, soil conditions, and market demand data, 
     the Advisory_Agent should recommend suitable crops based on all available factors
     """
-    # Test implementation
-    recommendations = advisory_agent.recommend_crops(
-        farmer_profile, weather_data, soil_data
+    # Test implementation using FastAPI test client
+    response = client.post(
+        "/api/v1/recommendations/crops",
+        json={
+            "farmer_profile": farmer_profile.dict(),
+            "weather_data": weather_data.dict(),
+            "soil_data": soil_data.dict()
+        }
     )
     
+    assert response.status_code == 200
+    recommendations = response.json()["recommendations"]
+    
     assert len(recommendations) > 0
-    assert all(is_suitable_for_conditions(crop, weather_data, soil_data) 
-              for crop in recommendations)
-    assert all(is_appropriate_for_farmer(crop, farmer_profile) 
-              for crop in recommendations)
+    assert all(
+        is_suitable_for_conditions(crop, weather_data, soil_data) 
+        for crop in recommendations
+    )
+    assert all(
+        is_appropriate_for_farmer(crop, farmer_profile) 
+        for crop in recommendations
+    )
 ```
 
-### Unit Testing Strategy
+**Unit Testing Strategy**
 
 **Focused Unit Testing Areas**
-- API endpoint validation and error handling
-- Data transformation and normalization functions
+- FastAPI endpoint validation and error handling using pytest
+- Pydantic model validation and serialization
+- LangChain chain and tool functionality testing
+- LangGraph agent node behavior validation
 - Integration points with external services (AWS services, government APIs)
-- Edge cases for multilingual processing
+- Edge cases for multilingual processing with LangChain
 - Security and authentication mechanisms
 
 **Integration Testing**
-- End-to-end WhatsApp conversation flows
-- Multi-agent coordination and communication
+- End-to-end WhatsApp conversation flows using FastAPI TestClient
+- Multi-agent coordination and communication through LangGraph
 - Data pipeline processing from sensors to recommendations
 - Cross-service communication and error propagation
 - Performance testing under simulated rural network conditions
 
 **Testing Environment Configuration**
-- Mock AWS services for development and testing environments
+- Mock AWS services using moto library for development and testing
 - Simulated IoT sensor networks for data ingestion testing
 - Multilingual test datasets for voice and text processing validation
-- Performance testing with simulated low-bandwidth conditions
+- Performance testing with simulated low-bandwidth conditions using pytest-benchmark
 - Security testing with penetration testing and vulnerability assessment
 
 ### Continuous Testing and Quality Assurance

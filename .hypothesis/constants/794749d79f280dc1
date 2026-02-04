@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\botocore\docs\params.py
+# hypothesis_version: 6.151.4
+
+['(%s) --', ', ', '- ', '[REQUIRED]', 'end-list', 'end-map', 'end-param', 'end-param-type', 'end-structure', 'idempotencyToken', 'is-required', 'is_tagged_union', 'key', 'param-documentation', 'param-name', 'param-type', 'request-params', 'response-params', 'shape']

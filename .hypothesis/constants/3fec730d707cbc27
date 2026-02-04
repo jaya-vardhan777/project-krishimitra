@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\recommendations.py
+# hypothesis_version: 6.151.4
+
+[0.0, 0.7, 0.8, 0.85, 0.9, 1.0, '/recommendations', 'action_items', 'confidence', 'crop_selection', 'description', 'expected_outcome', 'irrigation', 'pest_management', 'title']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\logging.py
+# hypothesis_version: 6.151.4
+
+['%Y-%m-%d %H:%M:%S', 'boto3', 'botocore', 'class', 'console', 'datefmt', 'default', 'detailed', 'fastapi', 'format', 'formatter', 'formatters', 'handlers', 'krishimitra', 'level', 'loggers', 'propagate', 'root', 'stream', 'urllib3', 'uvicorn', 'version']

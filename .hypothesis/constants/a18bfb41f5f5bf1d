@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\botocore\docs\example.py
+# hypothesis_version: 6.151.4
+
+['%s', "'%s'", "'string': ", '(', ')', ',', ': ', '=', 'EventStream(', 'StreamingBody()', '[', ']', 'ending-bracket', 'ending-comma', 'enum', 'event-stream-end', 'final-blank-line', 'key', 'list-value', 'map-value', 'member', 'member-value', 'request-example', 'response-example', 'shape', 'streaming_shape', 'structure-value', 'value', '{', '{}', '|', '}']

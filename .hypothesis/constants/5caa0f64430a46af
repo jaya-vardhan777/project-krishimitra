@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mangum\handlers\lambda_at_edge.py
+# hypothesis_version: 6.151.4
+
+['1.1', '2.0', '3.0', ':', 'Records', 'asgi', 'aws.context', 'aws.event', 'base64', 'body', 'cf', 'client', 'clientIp', 'data', 'encoding', 'headers', 'host', 'http', 'http_version', 'https', 'isBase64Encoded', 'key', 'mangum', 'method', 'path', 'query_string', 'querystring', 'raw_path', 'request', 'root_path', 'scheme', 'server', 'spec_version', 'status', 'text_mime_types', 'type', 'uri', 'value', 'version', 'x-forwarded-port']

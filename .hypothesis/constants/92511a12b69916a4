@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\farmers.py
+# hypothesis_version: 6.151.4
+
+[100, '/farmers', '/farmers/{farmer_id}', 'Area in acres', 'BOOL', 'Code', 'Error', 'Item', 'Items', 'L', 'M', 'N', 'S', '^(low|medium|high)$', '^[+]?[1-9]\\d{1,14}$', 'area', 'createdAt', 'cropType', 'crops', 'district', 'dynamodb', 'farmDetails', 'farmerId', 'hi', 'irrigationType', 'latitude', 'location', 'longitude', 'medium', 'name', 'organicFarming', 'phoneNumber', 'preferences', 'preferredLanguage', 'riskTolerance', 'soilType', 'state', 'totalLandArea', 'updatedAt', 'village']

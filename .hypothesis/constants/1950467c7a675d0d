@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\whatsapp.py
+# hypothesis_version: 6.151.4
+
+['/whatsapp/webhook', 'audio', 'body', 'changes', 'entry', 'field', 'from', 'hub.challenge', 'hub.mode', 'hub.verify_token', 'image', 'messages', 'status', 'subscribe', 'success', 'text', 'type', 'value']

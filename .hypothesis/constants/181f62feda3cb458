@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mangum\protocols\http.py
+# hypothesis_version: 6.151.4
+
+[b'Internal Server Error', b'content-type', b'text/plain; charset=utf-8', 500, '%s %s %s', 'body', 'headers', 'http.disconnect', 'http.request', 'http.response.body', 'http.response.start', 'mangum.http', 'method', 'more_body', 'path', 'status', 'type']
