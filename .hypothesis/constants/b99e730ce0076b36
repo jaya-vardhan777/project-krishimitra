@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\celery\exceptions.py
+# hypothesis_version: 6.151.4
+
+[' state:', ' task_id:', 'AlreadyRegistered', 'AlwaysEagerIgnored', 'BackendError', 'BackendGetMetaError', 'BackendStoreError', 'CDeprecationWarning', 'CeleryError', 'CeleryWarning', 'ChordError', 'FixupWarning', 'Ignore', 'ImproperlyConfigured', 'IncompleteStream', 'InvalidTaskError', 'NotConfigured', 'NotRegistered', 'OperationalError', 'QueueNotFound', 'Reject', 'Retry', 'SecurityError', 'SecurityWarning', 'TaskError', 'TaskPredicate', 'TaskRevokedError', 'Terminated', 'TimeLimitExceeded', 'TimeoutError', 'WorkerLostError', 'WorkerShutdown', 'WorkerTerminate', 'reraise', 'state', 'task_args', 'task_id', 'task_kwargs']

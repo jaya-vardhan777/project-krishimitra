@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\voice\compression.py
+# hypothesis_version: 6.151.4
+
+[0.0, 0.3, 0.5, 0.8, 1000.0, 100, 128, 512, 1000, 1024, 8000, 12000, 16000, '-b:a', '-q:a', '128k', '2', '24k', '32k', '4', '6', '64k', '8', '96k', 'bitrate', 'channels', 'codec_params', 'compression', 'compression_level', 'duration_seconds', 'error', 'excellent', 'failed', 'fair', 'format', 'good', 'high', 'inf', 'low', 'maximum', 'medium', 'mp3', 'none', 'original_size_bytes', 'poor', 'pydub unavailable', 'sample_rate', 'very_poor']

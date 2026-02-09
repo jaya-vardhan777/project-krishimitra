@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\bing.py
+# hypothesis_version: 6.151.4
+
+[200, 401, 403, 429, 503, '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ', ', ', \n', '/REST/v1/Locations', '?', 'Bing', 'address', 'addressLine', 'adminDistrict', 'ciso2', 'coordinates', 'countryRegion', 'culture', 'dev.virtualearth.net', 'errorDetails', 'include', 'includeNeighborhood', 'key', 'locality', 'maxResults', 'point', 'postalCode', 'query', 'resourceSets', 'resources', 'statusCode', 'userLocation', 'utf-8']

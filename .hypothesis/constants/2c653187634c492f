@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\whatsapp\group_chat.py
+# hypothesis_version: 6.151.4
+
+[500, 1000, 6379, '?', '@krishimitra', 'GroupChatParticipant', 'GroupChatSession', 'Item', 'KrishiMitra', 'active_discussions', 'active_participants', 'chat_history', 'context', 'conversation_id', 'created_at', 'dynamodb', 'farmer_id', 'group_context', 'group_history', 'group_id', 'is_bot', 'joined_at', 'krishimitra', 'last_active', 'last_activity', 'localhost', 'message_count', 'name', 'participant_count', 'participants', 'phone_number', 'recent_messages', 'session_data', 'shared_resources', 'text', 'timestamp', 'topics', 'type', '{}', 'कृषि मित्र', '।']

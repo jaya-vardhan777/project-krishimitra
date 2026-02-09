@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_core\tools\base.py
+# hypothesis_version: 6.151.4
+
+['.', '0.1.47', '0.1.7', '1.0', 'The tool schema.', 'Tool execution error', 'ToolCall', 'Union[str, dict]', '__annotations__', '__orig_bases__', '__parameters__', 'args', 'args_schema', 'before', 'callback_manager', 'callbacks', 'cls', 'content', 'content_and_artifact', 'description', 'document', 'error', 'file', 'forbid', 'green', 'id', 'ignore', 'image', 'image_url', 'invoke', 'json', 'kwargs', 'metadata', 'name', 'properties', 'run_id', 'run_manager', 'run_name', 'search_result', 'self', 'success', 'tags', 'text', 'tool_call', 'type', 'v1', 'v2', 'v__duplicate_kwargs']

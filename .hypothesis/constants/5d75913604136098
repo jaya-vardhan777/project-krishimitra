@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\tomtom.py
+# hypothesis_version: 6.151.4
+
+[400, '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ',', '1', '?', 'Developer Over Qps', 'TomTom', 'address', 'addresses', 'api.tomtom.com', 'false', 'freeformAddress', 'key', 'language', 'lat', 'limit', 'lon', 'position', 'results', 'true', 'typeahead', 'utf-8']

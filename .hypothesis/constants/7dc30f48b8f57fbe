@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_core\utils\function_calling.py
+# hypothesis_version: 6.151.4
+
+['$defs', '(', ')', '0.1.16', '1.0', ':', 'Args:', 'Example:', 'Returns:', 'UnionType', '__arg1', 'additionalProperties', 'anyOf', 'arguments', 'bool', 'boolean', 'callbacks', 'code_interpreter', 'computer_use_preview', 'custom', 'custom_tool', 'default', 'definitions', 'description', 'dict', 'file_search', 'float', 'format', 'function', 'id', 'image_generation', 'inputSchema', 'input_schema', 'int', 'integer', 'items', 'json', 'mcp', 'model_json_schema', 'name', 'number', 'object', 'parameters', 'properties', 'required', 'return', 'run_manager', 'schema', 'str', 'strict', 'string', 'title', 'toolSpec', 'tool_calls', 'type', 'type[BaseModel]', 'web_search', 'web_search_preview']

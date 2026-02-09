@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\pelias.py
+# hypothesis_version: 6.151.4
+
+['%s.geocode_api: %s', '%s.reverse: %s', '%s://%s%s', ',', '/', '/v1/reverse', '/v1/search', '?', 'Pelias', 'api_key', 'boundary.country', 'coordinates', 'features', 'geometry', 'lang', 'name', 'point.lat', 'point.lon', 'properties', 'text']

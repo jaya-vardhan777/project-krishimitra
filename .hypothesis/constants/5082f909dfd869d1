@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\smartystreets.py
+# hypothesis_version: 6.151.4
+
+['%s.geocode: %s', '%s://%s%s', ', ', '/street-address', 'LiveAddress', 'auth-id', 'auth-token', 'candidates', 'delivery_line_1', 'https', 'last_line', 'latitude', 'longitude', 'metadata', 'street', '{url}?{query}']

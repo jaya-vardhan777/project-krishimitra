@@ -1,0 +1,1 @@
+# IoT module for KrishiMitra platform

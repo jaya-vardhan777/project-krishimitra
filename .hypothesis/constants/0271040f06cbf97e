@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\whatsapp\chains.py
+# hypothesis_version: 6.151.4
+
+[0.5, 0.7, 1024, 2048, 4000, '. ', ':', 'General farmer', 'Hindi', 'agriculture', 'context', 'conversation_history', 'current_message', 'farmer_profile', 'farmer_query', 'format_instructions', 'general_inquiry', 'group_context', 'hi', 'image_analysis', 'language', 'max_tokens', 'medium', 'query', 'sender_name', 'temperature']

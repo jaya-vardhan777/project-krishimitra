@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\kombu\common.py
+# hypothesis_version: 6.151.4
+
+[65535, 'Broadcast', 'bcast', 'channel disconnected', 'collect_replies', 'content_encoding', 'correlation_id', 'drain_consumer', 'eventloop', 'fanout', 'insured', 'itermessages', 'maybe_declare', 'no_ack', 'queue', 'reply_to', 'routing_key', 'send_reply', 'serializer', 'uuid', '{:x}-{:x}-{:x}-{:x}', '{}.{}']

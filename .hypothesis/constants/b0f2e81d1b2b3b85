@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\whatsapp\queue.py
+# hypothesis_version: 6.151.4
+
+[240, 300, 1000, 6379, 'UTC', 'WhatsAppClient', 'conversation_id', 'created_at', 'failed', 'farmer_id', 'from_number', 'info', 'json', 'krishimitra_whatsapp', 'localhost', 'message_id', 'message_type', 'priority', 'queued_at', 'ready', 'response_queued', 'state', 'status', 'success', 'successful', 'task_id', 'to_number', 'updated_at', 'whatsapp_message_id', 'whatsapp_normal', 'whatsapp_rate_limit']

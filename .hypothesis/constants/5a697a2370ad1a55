@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\voice\chains.py
+# hypothesis_version: 6.151.4
+
+['Hindi', 'No context available', 'alternatives', 'audio', 'audio_data', 'audio_url', 'bn-IN', 'compression', 'compression_enabled', 'confidence', 'crops', 'data', 'duration', 'en-IN', 'farmer_context', 'format', 'gu-IN', 'hi-IN', 'land_size', 'language', 'languages', 'location', 'metadata', 'mp3', 'mr-IN', 'name', 'network_quality', 'pa-IN', 'query', 'response', 'segment_count', 'size_bytes', 'ta-IN', 'te-IN', 'text', 'transcribed_text', 'transcription', 'url']

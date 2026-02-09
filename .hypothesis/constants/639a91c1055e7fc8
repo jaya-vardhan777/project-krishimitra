@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\ignfrance.py
+# hypothesis_version: 6.151.4
+
+['%(lat)s %(lon)s', '%s %s', '%s, %s', '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', './/', './/GeocodeMatchCode', './Point/pos', '/', '?', 'Bbox', 'CadastralParcel', 'Commune', 'CommuneAbsorbee', 'Departement', 'Feuille', 'GeocodedAddress', 'ID', 'ID_TR', 'IGNFrance', 'INSEE', 'Municipality', 'Nature', 'Numero', 'PositionOfInterest', 'Qualite', 'Section', 'StreetAddress', 'Territoire', 'accuracy', 'bbox', 'building', 'commune', 'commune_absorbee', 'departement', 'false', 'feuille', 'freeformaddress', 'id', 'id_tr', 'insee', 'lat', 'lng', 'matchType', 'match_type', 'municipality', 'nature', 'number', 'numero', 'pos', 'postal_code', 'qualite', 'section', 'street', 'territoire', 'true', 'utf-8', 'value', 'wxs.ign.fr', 'xls', '{%s}']

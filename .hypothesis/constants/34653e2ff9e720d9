@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_aws\embeddings\bedrock.py
+# hypothesis_version: 6.151.4
+
+['.', 'after', 'application/json', 'bedrock-runtime', 'body', 'cohere', 'config', 'embedding', 'embeddings', 'endpoint_url', 'forbid', 'inputText', 'input_type', 'region_name', 'search_document', 'texts']

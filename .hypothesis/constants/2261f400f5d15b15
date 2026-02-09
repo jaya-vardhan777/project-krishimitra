@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\endpoints\ngo.py
+# hypothesis_version: 6.151.4
+
+[0.0, 400, 404, 500, '/categories', '/connect', '/impact/record', '/impact/{ngo_id}', '/list', '/ngo', '/search', '/{ngo_id}', 'Average satisfaction', 'Challenges faced', "Farmer's unique ID", 'Key achievements', 'Maharashtra', 'Measurement period', 'Minimum rating', 'NGO ID', 'Service ID', 'Service category', 'Specific service ID', 'State to search in', 'Sustainability score', 'Type of connection', '_', 'aggregate_impact', 'categories', 'connection', 'connection_id', 'connections', 'farmer_id', 'location', 'measurement_id', 'measurements', 'message', 'name', 'ngo', 'ngo_id', 'ngos', 'personal_info', 'service_inquiry', 'state', 'total_connections', 'total_measurements', 'total_ngos', 'value']

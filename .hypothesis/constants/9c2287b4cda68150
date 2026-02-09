@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\iot\streaming.py
+# hypothesis_version: 6.151.4
+
+[1.0, 5.0, 100, 500, 'Code', 'Data', 'Error', 'FailedRecordCount', 'LATEST', 'NextShardIterator', 'PartitionKey', 'Records', 'SequenceNumber', 'ShardId', 'ShardIterator', 'Shards', 'StreamDescription', 'alert', 'alert_type', 'info', 'kinesis', 'location', 'market-data-stream', 'market_data', 'message', 'metadata', 'quality_score', 'sensor_data', 'sensor_id', 'sensor_type', 'severity', 'stream_exists', 'timestamp', 'type', 'unit', 'value', 'weather-data-stream', 'weather_data']

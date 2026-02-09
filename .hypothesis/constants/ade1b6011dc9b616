@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\celery\worker\state.py
+# hypothesis_version: 6.151.4
+
+[1000, 10800, 50000, '- Avg: {}', 'CELERY_BENCH', 'CELERY_BENCH_EVERY', 'C_BENCH', 'C_BENCH_EVERY', 'MainProcess', 'Persistent', 'SOFTWARE_INFO', '__proto__', 'active_requests', 'clock', 'maybe_shutdown', 'py-celery', 'reserved_requests', 'revoked', 'sw_ident', 'sw_sys', 'sw_ver', 'task_accepted', 'task_ready', 'task_reserved', 'total_count', 'zrevoked']

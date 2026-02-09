@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\whatsapp\client.py
+# hypothesis_version: 6.151.4
+
+[30.0, 'Authorization', 'Content-Type', 'address', 'application/json', 'audio', 'body', 'caption', 'context', 'document', 'filename', 'id', 'image', 'individual', 'latitude', 'link', 'location', 'longitude', 'message_id', 'messages', 'messaging_product', 'name', 'read', 'recipient_type', 'socialmessaging', 'status', 'text', 'to', 'type', 'url', 'whatsapp']

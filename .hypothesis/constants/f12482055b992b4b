@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\iot.py
+# hypothesis_version: 6.151.4
+
+[0.0, 100.0, 100, 404, 500, '/devices', '/devices/{device_id}', '/iot', 'Associated farmer ID', 'Battery percentage', 'Command parameters', 'Device configuration', 'Device not found', 'IoT Devices', 'New device status', 'Type of IoT device', 'Type of command', 'action', 'battery_level', 'command_type', 'device_type', 'farmer_id', 'iot_device', 'issued_by', 'latitude', 'longitude', 'message', 'parameters', 'status', 'timestamp']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\voice\text_to_speech.py
+# hypothesis_version: 6.151.4
+
+[0.0, 0.5, 0.75, 1.0, 1.25, 1.5, 60.0, 150.0, '&', '&amp;', '&gt;', '&lt;', '-IN', '<', '>', 'Aditi', 'AudioStream', 'Id', 'Kajal', 'LanguageCode', 'Raveena', 'Voices', 'application/json', 'audio/mpeg', 'audio/ogg', 'audio/pcm', 'audio_data', 'audio_url', 'bn-IN', 'combined', 'content_type', 'default', 'duration', 'en-IN', 'engine', 'extension', 'fast', 'format', 'gu-IN', 'hi-IN', 'high', 'json', 'language', 'language_code', 'languages', 'low', 'medium', 'mp3', 'mr-IN', 'multilingual', 'neural', 'ogg', 'ogg_vorbis', 'pa-IN', 'pcm', 'polly', 's3', 'segment_count', 'size_bytes', 'slow', 'ssml', 'standard', 'ta-IN', 'te-IN', 'text', 'timestamp', 'voice', 'voice_id', 'x-fast', 'x-high', 'x-low', 'x-slow']

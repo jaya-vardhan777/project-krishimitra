@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\geokeo.py
+# hypothesis_version: 6.151.4
+
+['%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ',', '/', '?', 'ACCESS_DENIED', 'Access denied', 'Geokeo', 'INVALID_REQUEST', 'OK', 'OVER_QUERY_LIMIT', 'Over query limit', 'Unknown error', 'ZERO_RESULTS', 'api', 'country', 'formatted_address', 'geokeo.com', 'geometry', 'lat', 'lng', 'location', 'q', 'results', 'status']

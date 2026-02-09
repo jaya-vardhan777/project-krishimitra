@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\celery\worker\worker.py
+# hypothesis_version: 6.151.4
+
+[5.0, 'INIT', 'N/A', 'WARN', 'WorkController', 'Worker', 'beat_scheduler', 'clock', 'default', 'hub.register', 'idrss', 'importing module %s', 'inblock', 'isrss', 'ixrss', 'majflt', 'maxrss', 'minflt', 'msgrcv', 'msgsnd', 'nivcsw', 'nsignals', 'nswap', 'nvcsw', 'oublock', 'pid', 'reloading module %s', 'rusage', 'stime', 'task_soft_time_limit', 'task_time_limit', 'total', 'uptime', 'utime', 'worker', 'worker_autoscaler', 'worker_concurrency', 'worker_consumer', 'worker_lost_wait', 'worker_pool', 'worker_pool_putlocks', 'worker_pool_restarts', 'worker_state_db', 'worker_timer']

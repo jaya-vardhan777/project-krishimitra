@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_aws\vectorstores\inmemorydb\base.py
+# hypothesis_version: 6.151.4
+
+[0.2, 0.5, 0.9, 1000, 1536, '*', '0.0.1', ':', 'COSINE', 'Document', 'Drop index', 'Entries deleted', 'FLAT', 'FLOAT32', 'IP', 'InMemoryDBModel', 'Index already exists', 'Index does not exist', 'L2', 'Query', 'REDIS_URL', 'Setting to None. \n', 'Syntax', 'algorithm', 'content_key', 'content_vector', 'datatype', 'dims', 'distance', 'distance_metric', 'distance_threshold', 'generate', 'id', 'ids', 'index_schema', 'k', 'keys', 'mmr', 'name', 'numeric', 'redis_host', 'redis_password', 'redis_port', 'redis_url', 'score_threshold', 'similarity', 'tag', 'tags', 'text', 'vector', 'vector_key', 'vector_schema', 'w+']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\jwt\api_jwt.py
+# hypothesis_version: 6.151.4
+
+[',', ':', 'Invalid audience', 'Invalid issuer', 'Invalid subject', 'aud', 'exp', 'iat', 'iss', 'jti', 'nbf', 'payload', 'require', 'strict_aud', 'sub', 'utf-8', 'verify_aud', 'verify_exp', 'verify_iat', 'verify_iss', 'verify_jti', 'verify_nbf', 'verify_signature', 'verify_sub']

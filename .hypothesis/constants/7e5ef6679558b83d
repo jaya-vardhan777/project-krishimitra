@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\geolake.py
+# hypothesis_version: 6.151.4
+
+['%s.geocode: %s', '%s://%s%s', ',', ', ', '/', '/v1/geocode', '?', 'Geolake', 'address', 'api.geolake.com', 'api_key', 'city', 'country', 'countryCode', 'countryCodes', 'houseNumber', 'latitude', 'longitude', 'place', 'q', 'state', 'street', 'subNumber', 'success', 'zipcode']

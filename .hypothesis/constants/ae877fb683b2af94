@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\amqp\sasl.py
+# hypothesis_version: 6.151.4
+
+[b'\x00', b'@', b'AMQPLAIN', b'EXTERNAL', b'GSSAPI', b'LOGIN', b'PASSWORD', b'PLAIN', b'amqp', 'ascii', 'client_name', 'fail_soft', 'password', 'rdns', 'service', 'username', 'utf-8']

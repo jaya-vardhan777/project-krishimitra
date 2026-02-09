@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\google.py
+# hypothesis_version: 6.151.4
+
+['%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', '/', ':', '?', 'GoogleV3', 'INVALID_REQUEST', 'OK', 'OVER_DAILY_LIMIT', 'OVER_QUERY_LIMIT', 'REQUEST_DENIED', 'Server error', 'UNKNOWN_ERROR', 'Unknown error', 'ZERO_RESULTS', 'address', 'bounds', 'channel', 'client', 'components', 'error_message', 'formatted_address', 'geometry', 'key', 'language', 'lat', 'latlng', 'lng', 'location', 'maps.googleapis.com', 'place_id', 'region', 'results', 'sensor', 'status', 'timeZoneId', 'timestamp', 'utf-8', '|']

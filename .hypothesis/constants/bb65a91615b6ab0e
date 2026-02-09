@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\celery\_state.py
+# hypothesis_version: 6.151.4
+
+['-- USES CURRENT_APP', 'CELERY_LOADER', 'CELERY_TRACE_APP', 'C_STRICT_APP', 'C_WARN_APP', 'DEFAULT APP', 'MainProcess', 'USES CURRENT APP', 'current_app', 'current_task', 'default', 'get_current_app', 'get_current_task', 'set_default_app']

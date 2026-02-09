@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_core\language_models\chat_models.py
+# hypothesis_version: 6.151.4
+
+[100, '-', '---', '0.1.7', '1.0', 'BaseMessageChunk', 'Chat', 'ChatGeneration', 'TypeBaseModel', '_type', 'ainvoke', 'any', 'before', 'body', 'callback_manager', 'callbacks', 'chat', 'function', 'function_calling', 'graph', 'headers', 'id', 'image', 'invoke', 'json', 'kwargs', 'ls_max_tokens', 'ls_model_name', 'ls_stop', 'ls_temperature', 'max_tokens', 'message', 'metadata', 'method', 'model', 'model_name', 'name', 'not_implemented', 'parsing_error', 'raw', 'repr', 'request_id', 'response', 'run_id', 'run_manager', 'run_name', 'schema', 'source_type', 'status_code', 'stop', 'str', 'stream', 'strict', 'tags', 'temperature', 'text', 'tool_calling', 'tools', 'total_cost', 'type', 'usage_metadata']

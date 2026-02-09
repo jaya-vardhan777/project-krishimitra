@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\photon.py
+# hypothesis_version: 6.151.4
+
+['%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ',', ', ', '/', '/api', '/reverse', '?', 'Photon', 'bbox', 'city', 'coordinates', 'country', 'features', 'geometry', 'housenumber', 'lang', 'lat', 'limit', 'lon', 'name', 'osm_tag', 'photon.komoot.io', 'postcode', 'properties', 'q', 'state', 'street']

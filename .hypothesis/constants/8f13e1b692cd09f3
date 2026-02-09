@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\celery\bootsteps.py
+# hypothesis_version: 6.151.4
+
+['%s %s...', ', ', '.', 'Blueprint', 'Building graph...', 'ConsumerStep', 'Error on %s %s: %r', 'New boot order: {%s}', 'Preparing bootsteps.', 'StartStopStep', 'Starting %s', 'Step', '^-- substep ok', '_', '__module__', 'close', 'closing', 'color', 'darkseagreen3', 'fillcolor', 'ignore', 'initializing', 'name', 'none', 'parallelogram', 'restarting', 'running', 'shape', 'slategray3', 'slategray4', 'stop', 'stopping', 'terminate', 'terminating', 'unknown bootstep: %s', 'utf-8', '{}{}', '∘', '⧉']

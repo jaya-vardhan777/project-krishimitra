@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\geocodio.py
+# hypothesis_version: 6.151.4
+
+[403, 422, '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', '/v1.6/geocode', '/v1.6/reverse', '?', 'Geocodio', 'api.geocod.io', 'api_key', 'city', 'country', 'error', 'formatted_address', 'lat', 'limit', 'lng', 'location', 'postal_code', 'q', 'results', 'state', 'street']

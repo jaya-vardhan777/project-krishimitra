@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\voice.py
+# hypothesis_version: 6.151.4
+
+['/', '/voice/process', 'alternatives', 'audio', 'audio/', 'audio_format', 'audio_size_bytes', 'compression', 'compression_enabled', 'confidence', 'data', 'duration', 'fair', 'format', 'hi-IN', 'language', 'metadata', 'mp3', 'mpeg', 'network_quality', 'response', 'size_bytes', 'text', 'transcription', 'url', 'utf-8']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\__init__.py
+# hypothesis_version: 6.151.4
+
+['ArcGIS', 'AzureMaps', 'BANFrance', 'Baidu', 'BaiduV3', 'Bing', 'DataBC', 'GeoNames', 'GeocodeEarth', 'Geocodio', 'Geokeo', 'Geolake', 'GoogleV3', 'Here', 'HereV7', 'IGNFrance', 'LiveAddress', 'MapBox', 'MapQuest', 'MapTiler', 'Nominatim', 'OpenCage', 'OpenMapQuest', 'Pelias', 'Photon', 'PickPoint', 'TomTom', 'What3Words', 'What3WordsV3', 'Woosmap', 'Yandex', 'arcgis', 'azure', 'baidu', 'baiduv3', 'banfrance', 'bing', 'databc', 'geocodeearth', 'geocodio', 'geokeo', 'geolake', 'geonames', 'google', 'googlev3', 'here', 'herev7', 'ignfrance', 'liveaddress', 'mapbox', 'mapquest', 'maptiler', 'nominatim', 'opencage', 'openmapquest', 'options', 'pelias', 'photon', 'pickpoint', 'tomtom', 'what3words', 'what3wordsv3', 'woosmap', 'yandex']

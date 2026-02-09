@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\tornado\ioloop.py
+# hypothesis_version: 6.151.4
+
+[0.5, 1000.0, 'FutureCell', 'Future[_T]', 'IOLoop', '_S', '_T', '_Timeout', '_executor', 'callback', 'deadline', 'future', 'tdeadline', 'timeout_called']

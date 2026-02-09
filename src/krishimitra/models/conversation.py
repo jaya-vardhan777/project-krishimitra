@@ -7,7 +7,7 @@ and communication history.
 
 from datetime import datetime
 from enum import Enum
-from typing import List, Optional, Dict, Any, Union
+from typing import List, Optional, Dict, Any, Union, Literal
 from uuid import uuid4
 
 from pydantic import Field, validator
@@ -63,7 +63,7 @@ class MessageContent(BaseModel):
 class TextMessage(MessageContent):
     """Text message content."""
     
-    type: MessageType = Field(default=MessageType.TEXT, description="Message type")
+    type: Literal["text"] = Field(default="text", description="Message type")
     text: str = Field(description="Message text")
     formatted_text: Optional[str] = Field(default=None, description="Formatted text (HTML/Markdown)")
     mentions: List[str] = Field(default_factory=list, description="Mentioned entities")
@@ -82,7 +82,7 @@ class TextMessage(MessageContent):
 class VoiceMessage(MessageContent):
     """Voice message content."""
     
-    type: MessageType = Field(default=MessageType.VOICE, description="Message type")
+    type: Literal["voice"] = Field(default="voice", description="Message type")
     audio_url: str = Field(description="Audio file URL")
     duration: float = Field(gt=0, description="Audio duration in seconds")
     file_size: Optional[int] = Field(default=None, description="File size in bytes")
@@ -106,7 +106,7 @@ class VoiceMessage(MessageContent):
 class ImageMessage(MessageContent):
     """Image message content."""
     
-    type: MessageType = Field(default=MessageType.IMAGE, description="Message type")
+    type: Literal["image"] = Field(default="image", description="Message type")
     image_url: str = Field(description="Image file URL")
     thumbnail_url: Optional[str] = Field(default=None, description="Thumbnail URL")
     caption: Optional[str] = Field(default=None, description="Image caption")
@@ -131,7 +131,7 @@ class ImageMessage(MessageContent):
 class DocumentMessage(MessageContent):
     """Document message content."""
     
-    type: MessageType = Field(default=MessageType.DOCUMENT, description="Message type")
+    type: Literal["document"] = Field(default="document", description="Message type")
     document_url: str = Field(description="Document file URL")
     filename: str = Field(description="Original filename")
     file_size: Optional[int] = Field(default=None, description="File size in bytes")
@@ -146,7 +146,7 @@ class DocumentMessage(MessageContent):
 class LocationMessage(MessageContent):
     """Location message content."""
     
-    type: MessageType = Field(default=MessageType.LOCATION, description="Message type")
+    type: Literal["location"] = Field(default="location", description="Message type")
     latitude: float = Field(ge=-90, le=90, description="Latitude")
     longitude: float = Field(ge=-180, le=180, description="Longitude")
     address: Optional[str] = Field(default=None, description="Human-readable address")
@@ -161,7 +161,7 @@ class LocationMessage(MessageContent):
 class SystemMessage(MessageContent):
     """System-generated message content."""
     
-    type: MessageType = Field(default=MessageType.SYSTEM, description="Message type")
+    type: Literal["system"] = Field(default="system", description="Message type")
     message_key: str = Field(description="Message template key")
     parameters: Dict[str, Any] = Field(default_factory=dict, description="Template parameters")
     rendered_text: str = Field(description="Rendered message text")

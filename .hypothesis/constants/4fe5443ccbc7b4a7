@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\statsmodels\compat\python.py
+# hypothesis_version: 6.151.4
+
+['PYTHON_IMPL_WASM', 'asbytes', 'asstr', 'asunicode', 'emscripten', 'latin1', 'lfilter', 'lmap', 'lrange', 'lzip', 'temporary_class', 'wasm32', 'wasm64', 'with_metaclass']

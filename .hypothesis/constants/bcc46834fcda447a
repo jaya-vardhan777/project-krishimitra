@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain\chains\hyde\prompts.py
+# hypothesis_version: 6.151.4
+
+['Claim', 'PASSAGE', 'QUESTION', 'TOPIC', 'arguana', 'dbpedia_entity', 'fiqa', 'mr_tydi', 'sci_fact', 'trec_covid', 'trec_news', 'web_search']

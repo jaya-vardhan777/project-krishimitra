@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain\chains\retrieval_qa\base.py
+# hypothesis_version: 6.151.4
+
+['0.1.17', '0.2.13', '1.0', 'before', 'callbacks', 'context', 'forbid', 'mmr', 'page_content', 'query', 'result', 'retrieval_qa', 'run_manager', 'search_type', 'similarity', 'source_documents', 'stuff', 'vector_db_qa', 'vectorstore']

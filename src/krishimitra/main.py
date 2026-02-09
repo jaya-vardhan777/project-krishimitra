@@ -19,7 +19,8 @@ from mangum import Mangum
 
 from .core.config import get_settings
 from .core.logging import setup_logging
-from .api.v1 import health, farmers, recommendations, chat, voice, whatsapp
+from .api.v1 import health, farmers, recommendations, chat, voice, whatsapp, auth, iot
+from .api.v1.endpoints import feedback, government, ngo
 
 # Setup logging
 setup_logging()
@@ -94,11 +95,16 @@ async def global_exception_handler(request: Request, exc: Exception) -> JSONResp
 
 # Include API routers
 app.include_router(health.router, prefix="/api/v1", tags=["health"])
+app.include_router(auth.router, prefix="/api/v1", tags=["authentication"])
 app.include_router(farmers.router, prefix="/api/v1", tags=["farmers"])
 app.include_router(recommendations.router, prefix="/api/v1", tags=["recommendations"])
+app.include_router(feedback.router, prefix="/api/v1/feedback", tags=["feedback"])
 app.include_router(chat.router, prefix="/api/v1", tags=["chat"])
 app.include_router(voice.router, prefix="/api/v1", tags=["voice"])
 app.include_router(whatsapp.router, prefix="/api/v1", tags=["whatsapp"])
+app.include_router(iot.router, prefix="/api/v1", tags=["iot"])
+app.include_router(government.router, prefix="/api/v1", tags=["government"])
+app.include_router(ngo.router, prefix="/api/v1", tags=["ngo"])
 
 
 @app.get("/")

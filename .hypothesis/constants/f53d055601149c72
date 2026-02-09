@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\jwt\api_jwk.py
+# hypothesis_version: 6.151.4
+
+['EC', 'ES256', 'ES256K', 'ES384', 'ES512', 'Ed25519', 'EdDSA', 'HS256', 'OKP', 'P-256', 'P-384', 'P-521', 'RS256', 'RSA', 'alg', 'crv', 'keys', 'kid', 'kty', 'oct', 'secp256k1', 'use']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\nominatim.py
+# hypothesis_version: 6.151.4
+
+['%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ',', '/', '/reverse', '/search', '?', 'Nominatim', 'Unable to geocode', 'User-Agent', 'accept-language', 'addressdetails', 'bounded', 'city', 'country', 'countrycodes', 'county', 'display_name', 'error', 'extratags', 'featureType', 'format', 'geojson', 'json', 'kml', 'lat', 'limit', 'lon', 'my-application', 'my_app/1', 'my_user_agent/1.0', 'namedetails', 'polygon_geojson', 'polygon_kml', 'polygon_svg', 'polygon_text', 'postalcode', 'q', 'state', 'street', 'svg', 'viewbox', 'wkt', 'zoom']

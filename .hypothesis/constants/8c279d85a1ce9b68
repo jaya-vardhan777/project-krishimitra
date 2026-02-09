@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\whatsapp\webhook.py
+# hypothesis_version: 6.151.4
+
+['+00:00', 'Z', 'address', 'audio', 'body', 'caption', 'category', 'changes', 'code', 'contacts', 'context', 'data', 'deleted', 'delivered', 'document', 'emails', 'entry', 'errors', 'failed', 'field', 'from', 'id', 'image', 'latitude', 'location', 'longitude', 'message', 'messages', 'mime_type', 'name', 'org', 'phones', 'pricing', 'pricing_model', 'profile', 'read', 'sent', 'sha256', 'sha256=', 'status', 'statuses', 'text', 'timestamp', 'title', 'type', 'value', 'video', 'wa_id']

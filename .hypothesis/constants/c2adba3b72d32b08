@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\voice\audio_processing.py
+# hypothesis_version: 6.151.4
+
+[0.5, 1.5, 50.0, 300.0, 1000.0, 32768.0, 2147483648.0, 512, 1024, 8000, 16000, '-b:a', '-q:a', '0', '128k', '32k', '64k', 'Audio normalized', 'Pydub not available', 'amr', 'bitrate', 'channels', 'duration_seconds', 'error', 'flac', 'format', 'frame_count', 'high', 'low', 'm4a', 'medium', 'mp3', 'ogg', 'sample_rate', 'sample_width', 'size_bytes', 'wav', 'webm']

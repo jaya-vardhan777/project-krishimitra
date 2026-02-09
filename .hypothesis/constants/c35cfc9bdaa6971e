@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain\chains\llm_math\base.py
+# hypothesis_version: 6.151.4
+
+['\nAnswer: ', '0.2.13', '1.0', 'Answer:', 'Answer: ', '^\\[|\\]$', '^```text(.*?)```', '```output', 'answer', 'before', 'e', 'forbid', 'green', 'llm', 'llm_chain', 'llm_math_chain', 'pi', 'prompt', 'question', 'yellow']

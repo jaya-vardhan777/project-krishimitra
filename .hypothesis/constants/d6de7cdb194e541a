@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\woosmap.py
+# hypothesis_version: 6.151.4
+
+['%(lat)s,%(lon)s', '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', '/', ':', '?', 'INVALID_REQUEST', 'OK', 'REQUEST_DENIED', 'Server error', 'UNKNOWN_ERROR', 'Unknown error', 'Woosmap', 'ZERO_RESULTS', 'address', 'api.woosmap.com', 'cc_format', 'components', 'error_message', 'formatted_address', 'geometry', 'language', 'lat', 'latlng', 'limit', 'lng', 'location', 'private_key', 'results', 'status', '|']

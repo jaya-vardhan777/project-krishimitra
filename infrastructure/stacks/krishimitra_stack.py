@@ -271,7 +271,8 @@ class KrishiMitraStack(Stack):
                 "USER_POOL_CLIENT_ID": self.user_pool_client.user_pool_client_id,
                 "REGION": self.region
             },
-            log_retention=logs.RetentionDays.ONE_WEEK if self.env_name == "dev" else logs.RetentionDays.ONE_MONTH
+            log_retention=logs.RetentionDays.ONE_WEEK if self.env_name == "dev" else logs.RetentionDays.ONE_MONTH,
+            tracing=lambda_.Tracing.ACTIVE  # Enable AWS X-Ray tracing
         )
         
         # Auto-scaling configuration for production
@@ -614,6 +615,18 @@ class KrishiMitraStack(Stack):
                 effect=iam.Effect.ALLOW,
                 actions=[
                     "cloudwatch:PutMetricData"
+                ],
+                resources=["*"]
+            )
+        )
+        
+        # Grant Lambda function permissions for AWS X-Ray tracing
+        self.main_api_function.add_to_role_policy(
+            iam.PolicyStatement(
+                effect=iam.Effect.ALLOW,
+                actions=[
+                    "xray:PutTraceSegments",
+                    "xray:PutTelemetryRecords"
                 ],
                 resources=["*"]
             )

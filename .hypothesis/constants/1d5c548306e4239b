@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_text_splitters\html.py
+# hypothesis_version: 6.151.4
+
+[1000, 9999, '#TITLE#', 'PageElement', 'Title', '[^\\w\\s]', '\\s+', 'a', 'audio', 'body', 'content', 'div', 'end', 'english', 'h1', 'header', 'href', 'html', 'html.parser', 'img', 'link-wrapper', 'main', 'media-wrapper', 'name', 'src', 'start', 'stopwords', 'str', 'tag_name', 'timeout', 'utf-8', 'video']

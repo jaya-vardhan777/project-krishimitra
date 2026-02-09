@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\celery\app\backends.py
+# hypothesis_version: 6.151.4
+
+['+', '://', 'arangodb', 'azureblockblob', 'by_name', 'by_url', 'cache', 'cassandra', 'consul', 'cosmosdbsql', 'couchbase', 'couchdb', 'database', 'db', 'disabled', 'dynamodb', 'elasticsearch', 'file', 'gs', 'mongodb', 'redis', 'rediss', 'riak', 'rpc', 's3', 'sentinel']

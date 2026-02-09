@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\models\__init__.py
+# hypothesis_version: 6.151.4
+
+['ActionItem', 'BaseModel', 'ContactInfo', 'ConversationHistory', 'ConversationMessage', 'CropHealthAnalysis', 'CropInfo', 'ErrorResponse', 'FarmDetails', 'FarmerProfile', 'FarmerProfileCreate', 'FarmerProfileUpdate', 'ImageMessage', 'Location', 'MarketData', 'MessageContent', 'MessageType', 'PaginatedResponse', 'Preferences', 'RecommendationRecord', 'RecommendationType', 'SatelliteData', 'SensorReading', 'SoilData', 'TextMessage', 'TimestampedModel', 'VoiceMessage', 'WeatherData']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\whatsapp\tools.py
+# hypothesis_version: 6.151.4
+
+['Location address', 'Location latitude', 'Location longitude', 'Location name', 'Message not found', 'Message priority', 'URL of image to send', 'address', 'audio_url', 'error', 'failed', 'image_url', 'latitude', 'location', 'longitude', 'message_id', 'name', 'queued', 'read', 'status', 'success', 'task_id', 'to_number', 'whatsapp_message_id']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\security\access_control.py
+# hypothesis_version: 6.151.4
+
+['Bearer', 'HS256', 'JWT_SECRET_KEY', 'Token has expired', 'WWW-Authenticate', 'aadhaar_number', 'admin', 'agent', 'agricultural_data', 'bank_account_details', 'current_user', 'delete_own_profile', 'dev-secret-key', 'district', 'exp', 'export_data', 'farmer', 'farmer_id', 'farmer_profiles', 'iat', 'list_farmer_profiles', 'location', 'manage_system', 'manage_users', 'name', 'pan_number', 'permissions', 'read_farmer_profile', 'read_own_profile', 'recommendations', 'role', 'state', 'supervisor', 'system', 'update_own_profile', 'user_id', 'view_analytics', 'view_audit_logs']

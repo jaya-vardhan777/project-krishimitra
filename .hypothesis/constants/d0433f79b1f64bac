@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\config.py
+# hypothesis_version: 6.151.4
+
+[0.5, 50.0, 300, '*', '.env', '1.0.0', 'ALLOWED_HOSTS', 'ALLOWED_ORIGINS', 'AUDIO_BUCKET_NAME', 'AWS_REGION', 'BEDROCK_MODEL_ID', 'BEDROCK_REGION', 'CONVERSATIONS_TABLE', 'DEBUG', 'ENV', 'INFO', 'JWT_SECRET_KEY', 'KrishiMitra API', 'LOG_LEVEL', 'MARKET_API_KEY', 'MARKET_DATA_BUCKET', 'MAX_AUDIO_SIZE_MB', 'USER_POOL_CLIENT_ID', 'USER_POOL_ID', 'WEATHER_API_KEY', 'WEATHER_DATA_BUCKET', 'ap-south-1', 'bn-IN', 'default-dev-password', 'default-dev-salt', 'development', 'gu-IN', 'hi-IN', 'high', 'mr-IN', 'pa-IN', 'ta-IN', 'te-IN', 'test-audio-files', 'test-conversations', 'test-farmer-profiles', 'test-market-data', 'test-model-artifacts', 'test-recommendations', 'test-sensor-readings', 'test-user-pool', 'test-weather-data', 'us-east-1']

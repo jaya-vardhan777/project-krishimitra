@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\endpoints\government.py
+# hypothesis_version: 6.151.4
+
+[2.0, 50.0, 100, 400, 404, 500, '/applications', '/eligibility/assess', '/government', '/schemes', '/schemes/identify', '/schemes/{scheme_id}', 'Aadhaar card', 'Bank account details', "Farmer's unique ID", 'Kharif2024', 'Maharashtra', 'Scheme ID', 'Scheme ID to assess', 'application_id', 'applications', 'documents', 'eligibility_score', 'error', 'farm_details', 'farmer_id', 'government', 'location', 'message', 'personal_info', 'schemes', 'state', 'total_applications', 'total_land_area', 'total_schemes']

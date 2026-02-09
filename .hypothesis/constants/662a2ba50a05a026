@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\security\encryption.py
+# hypothesis_version: 6.151.4
+
+[100000, '****', '****@****.***', '@', 'aadhaar_number', 'bank_account_details', 'contact_info', 'coordinates', 'default-dev-password', 'default-dev-salt', 'email', 'farmer_profile', 'father_name', 'location', 'name', 'pan_number', 'phone_number', 'primary_phone', 'secondary_phone', 'street', 'village', 'whatsapp_number']

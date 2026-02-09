@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\statsmodels\base\covtype.py
+# hypothesis_version: 6.151.4
+
+['HAC', 'HAC-Groupsum', 'HAC-Panel', 'HC0', 'HC1', 'HC2', 'HC3', 'OIM', 'OPG', 'adjust_df', 'approx', 'cluster', 'cov_', 'description', 'df_correction', 'fixed_scale', 'groups', 'hac', 'hac-groupsum', 'hac-panel', 'kernel', 'maxlags', 'none', 'nw-groupsum', 'nw-panel', 'robust', 'robust-OIM', 'robust-approx', 'scaling_factor', 'shape', 'time', 'use_correction', 'use_self', 'use_t', 'values', 'weights_func', 'with', 'without']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\geocoders\geonames.py
+# hypothesis_version: 6.151.4
+
+['%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ',', ', ', '/findNearbyJSON', '/searchJSON', '/timezoneJSON', '?', 'GeoNames', 'adminName1', 'api.geonames.org', 'country', 'countryBias', 'countryName', 'featureCode', 'findNearby', 'findNearbyPlaceName', 'geonames', 'http', 'lang', 'lat', 'lng', 'maxRows', 'message', 'name', 'q', 'rawOffset', 'status', 'timezoneId', 'username', 'value']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_core\language_models\_utils.py
+# hypothesis_version: 6.151.4
+
+['audio', 'base64', 'data', 'detail', 'file', 'file_data', 'filename', 'format', 'image', 'image_url', 'input_audio', 'mime_type', 'source_type', 'type', 'url']

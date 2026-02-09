@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_core\language_models\llms.py
+# hypothesis_version: 6.151.4
+
+['.json', '.yaml', '.yml', '0.1.7', '1.0', 'Callbacks', 'LLM', 'Optional[str]', '_type', 'ainvoke', 'before', 'callback_manager', 'callbacks', 'dict[str, Any]', 'invoke', 'list[Callbacks]', 'list[Optional[str]]', 'list[str]', 'llm', 'ls_max_tokens', 'ls_model_name', 'ls_stop', 'ls_temperature', 'max_concurrency', 'max_tokens', 'metadata', 'model', 'model_name', 'run_id', 'run_manager', 'run_name', 'stop', 'tags', 'temperature', 'w']

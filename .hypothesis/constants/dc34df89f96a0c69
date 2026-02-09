@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\geopy\point.py
+# hypothesis_version: 6.151.4
+
+[0.0, 2.0, 180.0, 180, '"', '%s %s', "''", ', ', 'DEGREE', 'DOUBLE_PRIME', 'E', 'FLOAT', 'N', 'PRIME', 'Point(%r, %r, %r)', 'S', 'SEP', 'W', '\\d+(?:\\.\\d+)?', '\\s*[,;/\\s]\\s*', 'altitude', 'altitude_distance', 'altitude_units', 'arcmin', 'arcsec', 'deg', 'ft', 'km', 'latitude', 'latitude_arcminutes', 'latitude_arcseconds', 'latitude_degrees', 'longitude', 'longitude_arcminutes', 'longitude_arcseconds', 'longitude_degrees', 'm', 'mi', 'nm', 'nmi', 's']

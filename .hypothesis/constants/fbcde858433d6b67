@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain\agents\openai_functions_multi_agent\base.py
+# hypothesis_version: 6.151.4
+
+['0.1.0', '1.0', 'Action', '__arg1', 'action', 'action_name', 'actions', 'after', 'agent_scratchpad', 'anyOf', 'arguments', 'array', 'description', 'enum', 'function_call', 'input', 'items', 'name', 'object', 'output', 'parameters', 'properties', 'required', 'string', 'title', 'tool_call', 'tool_selection', 'type', '{input}']

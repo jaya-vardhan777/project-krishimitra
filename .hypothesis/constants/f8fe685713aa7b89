@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\kombu\__init__.py
+# hypothesis_version: 6.151.4
+
+['1', '5.6.2', 'Ask Solem', 'BrokerConnection', 'Connection', 'Consumer', 'Exchange', 'KOMBU_LOG_DEBUG', 'Message', 'Producer', 'Queue', 'VERSION', '__all__', '__author__', '__contact__', '__doc__', '__docformat__', '__file__', '__homepage__', '__name__', '__package__', '__path__', '__version__', 'auvipy@gmail.com', 'binding', 'connections', 'eventloop', 'kcah_acitats', 'kombu.common', 'kombu.connection', 'kombu.entity', 'kombu.message', 'kombu.messaging', 'kombu.pools', 'kombu.serialization', 'kombu.utils.url', 'major', 'micro', 'minor', 'parse_url', 'producers', 'releaselevel', 'restructuredtext en', 'serial', 'uuid', 'version_info', 'version_info_t']

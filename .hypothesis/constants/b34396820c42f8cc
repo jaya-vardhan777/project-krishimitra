@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sklearn\ensemble\_base.py
+# hypothesis_version: 6.151.4
+
+['__random_state', 'drop', 'estimators', 'random_state', 'sample_weight']

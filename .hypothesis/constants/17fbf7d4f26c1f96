@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sklearn\ensemble\_hist_gradient_boosting\grower.py
+# hypothesis_version: 6.151.4
+
+[0.0, 0.001, 1.0, 256, '+inf', '-inf', 'bin_threshold', 'bitset_idx', 'count', 'depth', 'feature_idx', 'gain', 'is_categorical', 'is_leaf', 'left', 'missing_go_to_left', 'num_threshold', 'right', 'sum_gradients', 'sum_hessians', 'value']

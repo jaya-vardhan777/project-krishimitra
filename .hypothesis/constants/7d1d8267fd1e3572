@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\security\audit.py
+# hypothesis_version: 6.151.4
+
+[100, 'access_denied', 'backup', 'create', 'critical', 'current_user', 'delete', 'error', 'export', 'function', 'import', 'info', 'krishimitra.audit', 'list', 'login', 'logout', 'new_values', 'old_values', 'permission_grant', 'permission_revoke', 'read', 'restore', 'search', 'security', 'token_refresh', 'update', 'warning']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\core\voice\langchain_tools.py
+# hypothesis_version: 6.151.4
+
+['Audio format', 'Input audio format', 'audio_base64', 'audio_data', 'audio_url', 'confidence', 'detect_language', 'duration', 'format', 'hi-IN', 'high', 'language', 'languages', 'mp3', 'preprocess_audio', 'segment_count', 'size_bytes', 'synthesize_speech', 'transcribe_audio', 'transcribed_text', 'utf-8', 'voice_id']

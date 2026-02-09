@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_aws\function_calling.py
+# hypothesis_version: 6.151.4
+
+['allOf', 'anyOf', 'args', 'bool', 'boolean', 'description', 'extra_body', 'float', 'forbid', 'formatted_parameters', 'function', 'id', 'input_schema', 'int', 'integer', 'name', 'number', 'parameters', 'properties', 'str', 'string', 'tool_description', 'tool_name', 'tool_use', 'tools', 'type']

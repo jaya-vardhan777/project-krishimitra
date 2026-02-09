@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\scipy\fftpack\pseudo_diffs.py
+# hypothesis_version: 6.151.4
+
+['_pseudo_diffs', 'cc_diff', 'convolve', 'cs_diff', 'diff', 'fftpack', 'hilbert', 'ihilbert', 'itilbert', 'pseudo_diffs', 'sc_diff', 'shift', 'ss_diff', 'tilbert']

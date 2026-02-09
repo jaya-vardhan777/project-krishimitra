@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\statsmodels\tsa\holtwinters\results.py
+# hypothesis_version: 6.151.4
+
+[' Model Results', 'AIC', 'AICC', 'Additive', 'BIC', 'Box-Cox Coeff.:', 'Box-Cox:', 'Date:', 'Dep. Variable:', 'Model:', 'Multiplicative', 'No. Observations:', 'None', 'Optimized:', 'SSE', 'Seasonal Periods:', 'Seasonal:', 'Time:', 'Trend:', 'add', 'additive', 'bootstrap', 'code', 'coeff', 'damping_trend', 'dates', 'end', 'endog', 'fittedvalues', 'forecast', 'freq', 'initial_level', 'initial_seasons', 'initial_trend', 'lamda', 'level', 'mul', 'multiplicative', 'optimized', 'predict', 'resid', 'rows', 'season', 'slope', 'smoothing_level', 'smoothing_seasonal', 'smoothing_trend', 'start', 'trend', 'use_boxcox']

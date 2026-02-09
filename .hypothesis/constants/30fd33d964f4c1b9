@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\auth.py
+# hypothesis_version: 6.151.4
+
+[86400, '/auth/agent/login', '/auth/farmer/login', '/auth/login', '/auth/logout', '/auth/me', '/auth/refresh', 'Agent identifier', 'Agent password', 'Invalid OTP', 'Invalid user type', 'OTP for verification', 'Type of user', '^\\+91[6-9]\\d{9}$', 'admin', 'agent', 'bearer', 'farmer', 'farmer_id', 'message', 'permissions', 'role', 'user_id']

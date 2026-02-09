@@ -29,6 +29,16 @@ class Settings(BaseSettings):
     # AWS Configuration
     aws_region: str = Field(default="ap-south-1", env="AWS_REGION")
     
+    @property
+    def AWS_REGION(self) -> str:
+        """Alias for aws_region for compatibility."""
+        return self.aws_region
+    
+    @property
+    def AUDIO_BUCKET_NAME(self) -> str:
+        """Alias for audio_bucket_name for compatibility."""
+        return self.audio_bucket_name
+    
     # DynamoDB Tables
     farmer_profiles_table: str = Field(default="test-farmer-profiles", env="FARMER_PROFILES_TABLE")
     conversations_table: str = Field(default="test-conversations", env="CONVERSATIONS_TABLE")
@@ -65,6 +75,11 @@ class Settings(BaseSettings):
         ],
         env="TRANSCRIBE_LANGUAGE_CODES"
     )
+    audio_bucket_name: str = Field(default="test-audio-files", env="AUDIO_BUCKET_NAME")
+    max_audio_duration_seconds: int = Field(default=300, env="MAX_AUDIO_DURATION_SECONDS")
+    min_audio_duration_seconds: float = Field(default=0.5, env="MIN_AUDIO_DURATION_SECONDS")
+    max_audio_size_mb: float = Field(default=50.0, env="MAX_AUDIO_SIZE_MB")
+    default_audio_quality: str = Field(default="high", env="DEFAULT_AUDIO_QUALITY")
     
     # WhatsApp Configuration
     whatsapp_verify_token: Optional[str] = Field(default=None, env="WHATSAPP_VERIFY_TOKEN")
@@ -74,6 +89,12 @@ class Settings(BaseSettings):
     # External API Configuration
     weather_api_key: Optional[str] = Field(default=None, env="WEATHER_API_KEY")
     market_api_key: Optional[str] = Field(default=None, env="MARKET_API_KEY")
+    
+    # Security Configuration
+    jwt_secret_key: str = Field(default="dev-secret-key-change-in-production", env="JWT_SECRET_KEY")
+    encryption_key: Optional[str] = Field(default=None, env="KRISHIMITRA_ENCRYPTION_KEY")
+    encryption_password: str = Field(default="default-dev-password", env="KRISHIMITRA_ENCRYPTION_PASSWORD")
+    encryption_salt: str = Field(default="default-dev-salt", env="KRISHIMITRA_ENCRYPTION_SALT")
     
     # Logging Configuration
     log_level: str = Field(default="INFO", env="LOG_LEVEL")

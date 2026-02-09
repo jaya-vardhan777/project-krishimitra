@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_core\messages\ai.py
+# hypothesis_version: 6.151.4
+
+['  Args:', 'AIMessageChunk', 'Invalid Tool Calls:', 'Tool Calls:', 'UsageMetadata', 'additional_kwargs', 'after', 'ai', 'args', 'before', 'dict', 'error', 'id', 'index', 'invalid_tool_calls', 'name', 'run-', 'tool_call_chunks', 'tool_calls', 'type']

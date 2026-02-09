@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\api\v1\whatsapp.py
+# hypothesis_version: 6.151.4
+
+['/whatsapp/send', '/whatsapp/webhook', 'Message not found', 'X-Hub-Signature-256', 'data', 'events_processed', 'hub.challenge', 'hub.mode', 'hub.verify_token', 'message', 'message_id', 'queued', 'queues', 'stats', 'status', 'subscribe', 'success', 'task_id', 'timestamp', 'type']

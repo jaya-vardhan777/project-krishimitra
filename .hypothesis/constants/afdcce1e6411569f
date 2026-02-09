@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain\agents\agent.py
+# hypothesis_version: 6.151.4
+
+[0.0, '\n{agent_scratchpad}', '.json', '.yaml', '.yml', '0.1.0', '1.0', 'Exception tool', '_Exception', '_type', 'after', 'agent', 'agent_scratchpad', 'available_tool_names', 'before', 'callbacks', 'force', 'generate', 'green', 'intermediate_steps', 'llm_prefix', 'metadata', 'observation_prefix', 'output', 'output_parser', 'red', 'requested_tool_name', 'run_id', 'run_name', 'stop', 'stream_runnable', 'tags', 'w']

@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain_core\runnables\config.py
+# hypothesis_version: 6.151.4
+
+['Callable[..., T]', 'P', 'RunnableConfig', 'T', '__', 'api_key', 'callbacks', 'client', 'config', 'configurable', 'enabled', 'handlers', 'max_concurrency', 'metadata', 'parent', 'parent_run_id', 'project_name', 'recursion_limit', 'run_id', 'run_manager', 'run_name', 'tags']

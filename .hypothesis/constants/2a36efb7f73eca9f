@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\scipy\signal\fir_filter_design.py
+# hypothesis_version: 6.151.4
+
+['_fir_filter_design', 'fir_filter_design', 'firls', 'firwin', 'firwin2', 'firwin_2d', 'kaiser_atten', 'kaiser_beta', 'kaiserord', 'minimum_phase', 'remez', 'signal']

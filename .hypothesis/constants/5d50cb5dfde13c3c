@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\langchain\chains\qa_with_sources\refine_prompts.py
+# hypothesis_version: 6.151.4
+
+['context_str', 'existing_answer', 'page_content', 'question', 'source']

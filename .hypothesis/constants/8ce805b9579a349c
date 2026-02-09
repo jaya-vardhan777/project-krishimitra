@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\jwt\api_jws.py
+# hypothesis_version: 6.151.4
+
+[b'.', ',', ':', 'HS256', 'JWT', 'Not enough segments', 'alg', 'b64', 'header', 'kid', 'payload', 'signature', 'typ', 'utf-8', 'verify_signature']

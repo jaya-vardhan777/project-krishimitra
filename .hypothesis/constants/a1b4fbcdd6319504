@@ -1,0 +1,4 @@
+# file: C:\Users\JayaVardhan\OneDrive - EPAM\Documents\AIforBharatHackathon\project-krishsense-v2\project-krishimitra\src\krishimitra\agents\data_ingestion.py
+# hypothesis_version: 6.151.4
+
+[0.0, 0.5, 0.7, 1.0, 1.5, 3.0, 18.5204, 73.8567, 100, 3600, 86400, '#ts', '9876543210', ':sensor_type', ':start_time', 'Data quality score', 'Demo Farmer', 'Demo Village', 'F001', 'GPS coordinates', 'Items', 'Maharashtra', 'Pune', 'Sensor reading value', 'SensorReadings', 'Unit of measurement', 'black_cotton', 'cotton', 'created_at', 'device_id', 'drip', 'dynamodb', 'errors', 'farmer_id', 'government_data', 'hindi', 'humidity', 'iot-data', 'iot_data_collection', 'kinesis', 'latitude', 'light', 'location', 'longitude', 'market_data', 'payload', 'ph', 'quality', 'quality_score', 'rainfall', 'reported', 'satellite_data', 'sensor_data', 'sensor_type', 'soil_moisture', 'state', 'temperature', 'timestamp', 'unit', 'unknown', 'value', 'weather_data']
