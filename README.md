@@ -2,6 +2,19 @@
 
 KrishiMitra (कृषि मित्र - Agriculture Friend) is an AI-powered agricultural advisory platform designed to improve rural livelihoods, sustainability, and access to information for farmers in rural India.
 
+## ✨ New: Web UI Available!
+
+A beautiful, responsive web interface is now available with:
+- 🌾 Farmer Registration
+- 💡 AI-Powered Recommendations
+- 🎤 Voice Queries (7 Indian Languages)
+- 💬 WhatsApp Integration
+- 📡 IoT Sensor Dashboard
+- 💰 Real-time Market Prices
+- 🏛️ Government Schemes Finder
+
+**Get started in 3 steps** - see [Getting Started Guide](GETTING_STARTED.md)
+
 ## Architecture Overview
 
 The platform follows a microservices architecture deployed on AWS using Python, featuring:
@@ -72,9 +85,25 @@ The platform follows a microservices architecture deployed on AWS using Python, 
 - AWS CDK CLI: `npm install -g aws-cdk`
 - Node.js 18+ (for CDK)
 
-## Quick Start
+## 🚀 Quick Start
 
-### 1. Clone and Setup
+### Windows Users (Easiest Way)
+
+```powershell
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Start everything with one command
+start-krishimitra.bat
+
+# 3. Open your browser - it will open automatically!
+# Web UI: http://localhost:8080
+# API Docs: http://localhost:8000/docs
+```
+
+### Manual Setup
+
+#### 1. Clone and Setup
 
 ```bash
 git clone <repository-url>
@@ -88,7 +117,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements-dev.txt
 ```
 
-### 2. Environment Configuration
+#### 2. Environment Configuration
 
 Create a `.env` file in the project root:
 
@@ -100,17 +129,33 @@ KRISHIMITRA_AWS_REGION=ap-south-1
 KRISHIMITRA_REDIS_URL=redis://localhost:6379/0
 ```
 
-### 3. Run the Application
+#### 3. Run the Application
 
+**Terminal 1 - API Server:**
 ```bash
 # Start the FastAPI development server
 uvicorn src.krishimitra.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-The API will be available at:
+**Terminal 2 - Web UI:**
+```bash
+# Start the web interface
+cd ui
+python -m http.server 8080
+```
+
+The application will be available at:
+- **Web UI**: http://localhost:8080 (User-friendly interface)
 - **API**: http://localhost:8000
-- **Interactive Docs**: http://localhost:8000/docs
+- **Interactive API Docs**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
+
+### 📚 Documentation
+
+- **[Getting Started Guide](GETTING_STARTED.md)** - Complete setup in 3 steps
+- **[UI Quick Start](UI_QUICK_START.md)** - How to use the web interface
+- **[Windows Setup Guide](WINDOWS_SETUP_AND_RUN_GUIDE.md)** - Detailed installation
+- **[Integration Status](INTEGRATION_STATUS.md)** - Current implementation status
 
 ### 4. Run Tests
 

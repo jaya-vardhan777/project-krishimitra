@@ -442,13 +442,44 @@ start http://localhost:8000/docs
 cd infrastructure && cdk deploy --all
 ```
 
+## Using the Web UI
+
+A modern web interface is available to interact with the API:
+
+### Starting the Web UI
+
+```powershell
+# Terminal 1: Start the API server
+python -m uvicorn src.krishimitra.main:app --reload
+
+# Terminal 2: Start the web UI
+cd ui
+python -m http.server 8080
+
+# Open your browser to:
+# http://localhost:8080
+```
+
+### Web UI Features
+
+- 🌾 Farmer Registration
+- 💡 Get AI Recommendations
+- 🎤 Voice Queries (7 Indian languages)
+- 💬 WhatsApp Integration
+- 📡 IoT Sensor Data
+- 💰 Market Prices
+- 🏛️ Government Schemes
+
+See `ui/README.md` for detailed usage instructions.
+
 ## Next Steps
 
 1. **Start the server**: `python -m uvicorn src.krishimitra.main:app --reload`
-2. **Open API docs**: http://localhost:8000/docs
-3. **Run tests**: `python -m pytest -v`
-4. **Review integration status**: Check `INTEGRATION_STATUS.md`
-5. **Complete missing endpoints**: See test failures for what needs implementation
+2. **Open Web UI**: http://localhost:8080 (after starting the UI server)
+3. **Or use API docs**: http://localhost:8000/docs
+4. **Run tests**: `python -m pytest -v`
+5. **Review integration status**: Check `INTEGRATION_STATUS.md`
+6. **Complete missing endpoints**: See test failures for what needs implementation
 
 ## Support and Resources
 

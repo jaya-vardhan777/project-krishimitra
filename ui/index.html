@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KrishiMitra - Agricultural Advisory Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>🌾 KrishiMitra</h1>
+                <p>AI-Powered Agricultural Advisory Platform</p>
+            </div>
+            <div class="api-status">
+                <span id="api-status" class="status-indicator">●</span>
+                <span id="api-status-text">Checking API...</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar">
+                <nav class="nav-menu">
+                    <button class="nav-item active" data-section="dashboard">
+                        📊 Dashboard
+                    </button>
+                    <button class="nav-item" data-section="farmer-registration">
+                        👨‍🌾 Farmer Registration
+                    </button>
+                    <button class="nav-item" data-section="recommendations">
+                        💡 Get Recommendations
+                    </button>
+                    <button class="nav-item" data-section="voice-query">
+                        🎤 Voice Query
+                    </button>
+                    <button class="nav-item" data-section="whatsapp">
+                        💬 WhatsApp Integration
+                    </button>
+                    <button class="nav-item" data-section="iot-data">
+                        📡 IoT Sensor Data
+                    </button>
+                    <button class="nav-item" data-section="market-prices">
+                        💰 Market Prices
+                    </button>
+                    <button class="nav-item" data-section="government-schemes">
+                        🏛️ Government Schemes
+                    </button>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <div class="content-area">
+                <!-- Dashboard Section -->
+                <section id="dashboard" class="section active">
+                    <h2>Dashboard</h2>
+                    <div class="dashboard-grid">
+                        <div class="stat-card">
+                            <h3>API Status</h3>
+                            <p class="stat-value" id="dashboard-api-status">Checking...</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Total Farmers</h3>
+                            <p class="stat-value">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Recommendations Given</h3>
+                            <p class="stat-value">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Languages Supported</h3>
+                            <p class="stat-value">7</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <h3>Welcome to KrishiMitra</h3>
+                        <p>This is a sample UI to interact with the KrishiMitra API. Use the navigation menu to explore different features:</p>
+                        <ul>
+                            <li>Register farmers and manage profiles</li>
+                            <li>Get personalized agricultural recommendations</li>
+                            <li>Process voice queries in multiple Indian languages</li>
+                            <li>Integrate with WhatsApp for farmer communication</li>
+                            <li>Submit and view IoT sensor data</li>
+                            <li>Check real-time market prices</li>
+                            <li>Explore government schemes and eligibility</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Farmer Registration Section -->
+                <section id="farmer-registration" class="section">
+                    <h2>Farmer Registration</h2>
+                    <form id="farmer-registration-form" class="form">
+                        <div class="form-group">
+                            <label for="farmer-name">Name *</label>
+                            <input type="text" id="farmer-name" required placeholder="राम कुमार">
+                        </div>
+                        <div class="form-group">
+                            <label for="farmer-phone">Phone Number *</label>
+                            <input type="tel" id="farmer-phone" required placeholder="+919876543210">
+                        </div>
+                        <div class="form-group">
+                            <label for="farmer-language">Preferred Language *</label>
+                            <select id="farmer-language" required>
+                                <option value="hi-IN">Hindi (हिंदी)</option>
+                                <option value="ta-IN">Tamil (தமிழ்)</option>
+                                <option value="te-IN">Telugu (తెలుగు)</option>
+                                <option value="bn-IN">Bengali (বাংলা)</option>
+                                <option value="mr-IN">Marathi (मराठी)</option>
+                                <option value="gu-IN">Gujarati (ગુજરાતી)</option>
+                                <option value="pa-IN">Punjabi (ਪੰਜਾਬੀ)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="farmer-state">State *</label>
+                            <input type="text" id="farmer-state" required placeholder="उत्तर प्रदेश">
+                        </div>
+                        <div class="form-group">
+                            <label for="farmer-district">District *</label>
+                            <input type="text" id="farmer-district" required placeholder="मेरठ">
+                        </div>
+                        <div class="form-group">
+                            <label for="farmer-village">Village *</label>
+                            <input type="text" id="farmer-village" required placeholder="सरधना">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register Farmer</button>
+                    </form>
+                    <div id="farmer-registration-result" class="result-box"></div>
+                </section>
+
+                <!-- Recommendations Section -->
+                <section id="recommendations" class="section">
+                    <h2>Get Agricultural Recommendations</h2>
+                    <form id="recommendations-form" class="form">
+                        <div class="form-group">
+                            <label for="rec-farmer-id">Farmer ID *</label>
+                            <input type="text" id="rec-farmer-id" required placeholder="farmer-123">
+                        </div>
+                        <div class="form-group">
+                            <label for="rec-query">Query *</label>
+                            <textarea id="rec-query" required rows="4" placeholder="मेरी गेहूं की फसल में पीले पत्ते दिख रहे हैं। क्या करूं?"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="rec-language">Language</label>
+                            <select id="rec-language">
+                                <option value="hi-IN">Hindi (हिंदी)</option>
+                                <option value="ta-IN">Tamil (தமிழ்)</option>
+                                <option value="te-IN">Telugu (తెలుగు)</option>
+                                <option value="bn-IN">Bengali (বাংলা)</option>
+                                <option value="mr-IN">Marathi (मराठी)</option>
+                                <option value="gu-IN">Gujarati (ગુજરાતી)</option>
+                                <option value="pa-IN">Punjabi (ਪੰਜਾਬੀ)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Get Recommendation</button>
+                    </form>
+                    <div id="recommendations-result" class="result-box"></div>
+                </section>
+
+                <!-- Voice Query Section -->
+                <section id="voice-query" class="section">
+                    <h2>Voice Query</h2>
+                    <div class="voice-interface">
+                        <div class="voice-controls">
+                            <button id="record-btn" class="btn btn-large btn-voice">
+                                🎤 Start Recording
+                            </button>
+                            <p class="voice-status" id="voice-status">Ready to record</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="voice-language">Language</label>
+                            <select id="voice-language">
+                                <option value="hi-IN">Hindi (हिंदी)</option>
+                                <option value="ta-IN">Tamil (தமிழ்)</option>
+                                <option value="te-IN">Telugu (తెలుగు)</option>
+                                <option value="bn-IN">Bengali (বাংলা)</option>
+                                <option value="mr-IN">Marathi (मराठी)</option>
+                                <option value="gu-IN">Gujarati (ગુજરાતી)</option>
+                                <option value="pa-IN">Punjabi (ਪੰਜਾਬੀ)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Or upload audio file:</label>
+                            <input type="file" id="audio-file" accept="audio/*">
+                            <button id="upload-audio-btn" class="btn btn-secondary">Upload & Process</button>
+                        </div>
+                    </div>
+                    <div id="voice-result" class="result-box"></div>
+                </section>
+
+                <!-- WhatsApp Section -->
+                <section id="whatsapp" class="section">
+                    <h2>WhatsApp Integration</h2>
+                    <div class="info-box">
+                        <h3>WhatsApp Webhook Configuration</h3>
+                        <p>Configure your WhatsApp Business API to send webhooks to:</p>
+                        <code>http://localhost:8000/api/v1/whatsapp/webhook</code>
+                    </div>
+                    <form id="whatsapp-form" class="form">
+                        <div class="form-group">
+                            <label for="whatsapp-phone">Phone Number *</label>
+                            <input type="tel" id="whatsapp-phone" required placeholder="+919876543210">
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsapp-message">Message *</label>
+                            <textarea id="whatsapp-message" required rows="4" placeholder="मुझे टमाटर की खेती के बारे में जानकारी चाहिए"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send WhatsApp Message</button>
+                    </form>
+                    <div id="whatsapp-result" class="result-box"></div>
+                </section>
+
+                <!-- IoT Data Section -->
+                <section id="iot-data" class="section">
+                    <h2>IoT Sensor Data</h2>
+                    <form id="iot-form" class="form">
+                        <div class="form-group">
+                            <label for="iot-device-id">Device ID *</label>
+                            <input type="text" id="iot-device-id" required placeholder="sensor-001">
+                        </div>
+                        <div class="form-group">
+                            <label for="iot-farmer-id">Farmer ID *</label>
+                            <input type="text" id="iot-farmer-id" required placeholder="farmer-123">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="iot-temperature">Temperature (°C)</label>
+                                <input type="number" id="iot-temperature" step="0.1" placeholder="28.5">
+                            </div>
+                            <div class="form-group">
+                                <label for="iot-humidity">Humidity (%)</label>
+                                <input type="number" id="iot-humidity" step="0.1" placeholder="65.0">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="iot-soil-moisture">Soil Moisture (%)</label>
+                                <input type="number" id="iot-soil-moisture" step="0.1" placeholder="45.0">
+                            </div>
+                            <div class="form-group">
+                                <label for="iot-soil-ph">Soil pH</label>
+                                <input type="number" id="iot-soil-ph" step="0.1" placeholder="6.5">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Sensor Data</button>
+                    </form>
+                    <div id="iot-result" class="result-box"></div>
+                </section>
+
+                <!-- Market Prices Section -->
+                <section id="market-prices" class="section">
+                    <h2>Market Prices</h2>
+                    <form id="market-form" class="form">
+                        <div class="form-group">
+                            <label for="market-crop">Crop Name *</label>
+                            <input type="text" id="market-crop" required placeholder="Wheat / गेहूं">
+                        </div>
+                        <div class="form-group">
+                            <label for="market-location">Location *</label>
+                            <input type="text" id="market-location" required placeholder="Meerut, Uttar Pradesh">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Get Market Prices</button>
+                    </form>
+                    <div id="market-result" class="result-box"></div>
+                </section>
+
+                <!-- Government Schemes Section -->
+                <section id="government-schemes" class="section">
+                    <h2>Government Schemes</h2>
+                    <form id="schemes-form" class="form">
+                        <div class="form-group">
+                            <label for="schemes-farmer-id">Farmer ID *</label>
+                            <input type="text" id="schemes-farmer-id" required placeholder="farmer-123">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Check Eligible Schemes</button>
+                    </form>
+                    <div id="schemes-result" class="result-box"></div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 KrishiMitra - AI-Powered Agricultural Advisory Platform</p>
+            <p>Supporting 7 Indian Languages | Serving Rural Farmers Across India</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

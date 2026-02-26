@@ -30,6 +30,32 @@ router = APIRouter()
 settings = get_settings()
 
 
+class SimpleLocation(BaseModel):
+    """Simple location information for registration."""
+    state: str
+    district: str
+    village: str
+
+
+class SimpleFarmerRegistration(BaseModel):
+    """Simplified farmer registration model for UI."""
+    name: str
+    phone_number: str = Field(pattern="^[+]?[1-9]\\d{1,14}$")
+    preferred_language: str = Field(default="hi-IN", pattern="^(hi-IN|ta-IN|te-IN|bn-IN|mr-IN|gu-IN|pa-IN)$")
+    location: SimpleLocation
+
+
+class SimpleFarmerResponse(BaseModel):
+    """Simple farmer registration response."""
+    farmer_id: str
+    name: str
+    phone_number: str
+    preferred_language: str
+    location: SimpleLocation
+    status: str = "registered"
+    created_at: datetime
+
+
 class Location(BaseModel):
     """Farmer location information."""
     state: str
@@ -92,6 +118,79 @@ def get_field_encryption():
     """Get field encryption service."""
     encryption_service = get_encryption_service()
     return FieldEncryption(encryption_service)
+
+
+@router.post("/farmers/register", response_model=SimpleFarmerResponse, status_code=status.HTTP_201_CREATED)
+async def register_farmer(
+    registration: SimpleFarmerRegistration,
+    dynamodb=Depends(get_dynamodb_client)
+) -> SimpleFarmerResponse:
+    """
+    Simple farmer registration endpoint for UI.
+    
+    This endpoint provides a simplified registration flow without requiring
+    authentication or complex farm details. It's designed for easy onboarding.
+    """
+    
+    farmer_id = f"farmer-{str(uuid.uuid4())[:8]}"
+    current_time = datetime.utcnow()
+    
+    # Prepare DynamoDB item with minimal required data
+    item = {
+        "farmerId": {"S": farmer_id},
+        "name": {"S": registration.name},
+        "phoneNumber": {"S": registration.phone_number},
+        "preferredLanguage": {"S": registration.preferred_language},
+        "location": {
+            "M": {
+                "state": {"S": registration.location.state},
+                "district": {"S": registration.location.district},
+                "village": {"S": registration.location.village}
+            }
+        },
+        "status": {"S": "registered"},
+        "createdAt": {"S": current_time.isoformat()},
+        "updatedAt": {"S": current_time.isoformat()},
+        "registrationType": {"S": "simple"}
+    }
+    
+    try:
+        # Store in DynamoDB
+        dynamodb.put_item(
+            TableName=settings.farmer_profiles_table,
+            Item=item
+        )
+        
+        logger.info(f"Registered new farmer: {farmer_id}")
+        
+        return SimpleFarmerResponse(
+            farmer_id=farmer_id,
+            name=registration.name,
+            phone_number=registration.phone_number,
+            preferred_language=registration.preferred_language,
+            location=registration.location,
+            status="registered",
+            created_at=current_time
+        )
+        
+    except ClientError as e:
+        logger.error(f"Failed to register farmer: {e}")
+        # For development, return a mock response if DynamoDB fails
+        if settings.environment == "development":
+            logger.warning("DynamoDB unavailable, returning mock response")
+            return SimpleFarmerResponse(
+                farmer_id=farmer_id,
+                name=registration.name,
+                phone_number=registration.phone_number,
+                preferred_language=registration.preferred_language,
+                location=registration.location,
+                status="registered",
+                created_at=current_time
+            )
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Failed to register farmer"
+        )
 
 
 @router.post("/farmers", response_model=FarmerProfileResponse, status_code=status.HTTP_201_CREATED)
